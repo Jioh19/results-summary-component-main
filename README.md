@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Jioh19/results-summary-component-main]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://jioh19.github.io/results-summary-component-main/]
 
 ## My process
 
