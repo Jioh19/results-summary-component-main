@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18px;
+}
+
+.card {
+    width: min(100%, 900px);
+    text-align: center;
+}
+
+.cardTop {
+    background: linear-gradient(
+        var(--Light-slate-blue),
+        var(--Light-royal-blue)
+    );
+    color: var(--White);
+    padding: 1rem 2rem 1rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: min(100%, 450px);
+    height: max(250px, 57vh);
+}
+
+.result {
+    color: var(--Light-lavender);
+}
+
+.circle {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-block: 1rem;
+    background: linear-gradient(var(--Violet-blue), var(--Persian-blue));
+}
+
+.bigInCircle {
+    padding-top: 1rem;
+    font-size: 3.5rem;
+}
+
+.smallInCircle {
+    color: var(--Light-slate-blue);
+}
+
+.qualification {
+    margin: 0.5rem;
+}
+
+.percentage {
+    font-weight: 500;
+    color: var(--Light-lavender);
+}
+
+.cardBot {
+    background: var(--White);
+    width: min(100%, 450px);
+    height: max(250px, 57vh);
+    padding: 1rem 2rem 1rem;
+}
+
+.summary {
+    text-align: left;
+}
+
+.icon {
+    padding-right: 0.5rem;
+}
+
+.base {
+    color: lightslategray;
+}
+
+.cardLeft {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.cardRight {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.reaction {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    border-radius: 10px;
+    height: 7vh;
+    margin-block: clamp(0.5rem, 3vh, 1.5rem);
+}
+
+.react {
+    color: var(--Light-red);
+    align-self: center;
+    justify-content: start;
+}
+
+.memory {
+    display: flex;
+    align-items: center;
+    background-color: hsl(39, 100%, 56%, 0.1);
+    border-radius: 10px;
+    height: 7vh;
+    margin-block: clamp(0.5rem, 3vh, 1.5rem);
+}
+
+.mem {
+    color: var(--Orangey-yellow);
+}
+
+.verbal {
+    display: flex;
+    align-items: center;
+    background-color: hsl(166, 100%, 37%, 0.1);
+    border-radius: 10px;
+    height: 7vh;
+    margin-block: clamp(0.5rem, 3vh, 1.5rem);
+}
+.verb {
+    color: var(--Green-teal);
+}
+
+.visual {
+    display: flex;
+    align-items: center;
+    background-color: hsl(234, 85%, 45%, 0.1);
+    border-radius: 10px;
+    height: 7vh;
+    margin-block: clamp(0.5rem, 3vh, 1.5rem);
+}
+.vis {
+    color: var(--Cobalt-blue);
+}
+
+.base {
+    padding-right: 1rem;
+}
+
+.continue {
+    background: var(--Dark-gray-blue);
+    border-radius: 30px;
+    height: 7vh;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+}
+
+.continue:hover {
+    background: linear-gradient(
+        var(--Light-slate-blue),
+        var(--Light-royal-blue)
+    );
+}
+
+@media (min-width: 800px) {
+    .card {
+        margin-top: 5rem;
+        display: flex;
+        border-radius: 20px;
+        box-shadow: 5px 5px 50px 5px hsl(252, 33%, 82%);
+    }
+    .cardTop {
+        padding-top: max( 3rem, 8vh);
+        border-radius: 20px;
+        align-items: center;
+    }
+    .cardBot {
+        border-radius: 20px;
+    }
+
+    .circle {
+        width: 12rem;
+        height: 12rem;
+    }
+    .bigInCircle {
+        padding-top: 3rem;
+    }
+}
